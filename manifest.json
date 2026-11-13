@@ -1,0 +1,31 @@
+{
+  "folder": "06-Ghost-Note",
+  "description": "跟随吉他音高加入幽灵歌声和暗色混响。",
+  "app": {
+    "file": "App.rpk",
+    "id": "org.resona.creative.ghost-note",
+    "name": "Ghost Note",
+    "version": "1.1.2",
+    "kind": 1,
+    "bytes": 243884,
+    "sha256": "7b2eb9e08e37635f32d34c2c4cbb5fa7cde59a1f2c2b6b5f195ac9d99b52f3eb",
+    "crc32": 1769128846
+  },
+  "audio_packs": [
+    {
+      "file": "Audio-Pack.rpk",
+      "id": "org.resona.creative.ghost-note.voice",
+      "name": "Ghost Voice",
+      "version": "1.0.0",
+      "kind": 0,
+      "bytes": 20092,
+      "sha256": "f41aad76bc31fe8333a90e6096903edb48f1089cd83d28fe24396c4232e9eed6",
+      "crc32": 1360473865
+    }
+  ],
+  "source": "source/",
+  "cover": "界面.png",
+  "license_file_present": false,
+  "host_build_check": "updated build verified",
+  "community_upload": "not sent"
+}

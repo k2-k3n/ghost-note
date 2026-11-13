@@ -1,0 +1,12 @@
+{
+  "name": "Ghost Voice",
+  "id": "org.resona.creative.ghost-note.voice",
+  "version": "1.0.0",
+  "api": 1,
+  "description": "Ghost Voice: a pitch-tracked, theremin-like \"oooo\" that swoops slowly after your notes, shivers on held ones and drifts into a long dark reverb.",
+  "sources": [
+    "src/dsp.cpp",
+    "src/ui.cpp",
+    "src/main.cpp"
+  ]
+}

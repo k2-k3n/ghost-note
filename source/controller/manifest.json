@@ -1,0 +1,26 @@
+{
+  "controllerVersion": "1.1.0",
+  "enabled": true,
+  "entries": {
+    "mobile": "mobile/index.html",
+    "web": "web/index.html"
+  },
+  "entry": "mobile/index.html",
+  "format": "clcontrol",
+  "id": "org.resona.creative.ghost-note.controller",
+  "interfaces": [
+    "web",
+    "mobile"
+  ],
+  "name": "Ghost Note",
+  "permissions": [
+    "midi"
+  ],
+  "target": {
+    "appId": "org.resona.creative.ghost-note",
+    "appName": "Ghost Note",
+    "appVersion": "1.1.0",
+    "protocolVersion": 1
+  },
+  "version": 1
+}
