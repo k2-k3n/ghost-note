@@ -1,9 +1,9 @@
 {
   "name": "Ghost Note",
   "id": "org.resona.creative.ghost-note",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "api": 1,
-  "description": "A friendly ghost haunts your guitar: it wails along above whatever you play, in a moonlit pixel-art graveyard.",
+  "description": "A friendly ghost haunts your guitar: it wails along above whatever you play, in a moonlit miniature graveyard.",
   "kind": "app",
   "sources": [
     "src/app.cpp"

@@ -56,12 +56,11 @@ per control on channel 1; CC 119 asks the App for every value. The pads act only
 
 - **The ghost** bobs all the time, floats higher and glows brighter the louder you play, and sings
   an "O" while you play. A hard pick (or a click) makes it shout **BOO!**, which startles two bats
-  out of the tree and the black cat on the wall. After 9 s of silence it sinks behind its
-  tombstone and peeks over the top. At HAUNT 0 it is see-through.
+  out of the tree. After 9 s of silence it sinks behind its tombstone. Lowering HAUNT dims the cloth.
 - **Little ghost friends**: one, two or three = unison, octave, octave and a fifth.
 - **Ground fog**: more drifting bands = more FOG.
 - **SHIVER**: calm smiles; shaky trembles with a wobbly mouth; terrified shakes harder with
-  worried eyes. The lantern flame shakes with it.
+  worried eyes.
 
 ## DSP: Ghost Voice
 
@@ -88,9 +87,14 @@ The knobs drive HAUNT, INTERVAL, SHIVER (25 / 60 / 100) and FOG; GLIDE, DRY and 
 ## Build
 
     resona-lab build dsp && resona-lab pack build dsp     # Ghost Voice (install it in Lab)
-    resona-lab app build .                                 # the App
-    python3 ../_art/ghost_art.py                           # re-bake src/art.h after changing the art
+    python3 tools/encode_graveyard.py  # Pillow 12.1+
+    resona-lab app build .
 
 ## 开机动画
 
-月光下，幽灵从墓碑后浮起，举手现身。 首次运行时保存到 Resona Box，下次开机播放。
+换上月夜布偶布景。幽灵随拨弦浮动并变换表情，FOG 越高，地面雾气越浓。开机时幽灵从墓碑后升起，接着淡入主界面。
+
+## Changes
+
+- 1.1.4 — Increased the ghost’s idle bob from 6 to 16 pixels peak to peak.
+- 1.1.3 — Moonlit miniature graveyard, animated cloth ghost and fog, and matching startup.

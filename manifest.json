@@ -5,11 +5,11 @@
     "file": "App.rpk",
     "id": "org.resona.creative.ghost-note",
     "name": "Ghost Note",
-    "version": "1.1.2",
+    "version": "1.1.4",
     "kind": 1,
-    "bytes": 243884,
-    "sha256": "7b2eb9e08e37635f32d34c2c4cbb5fa7cde59a1f2c2b6b5f195ac9d99b52f3eb",
-    "crc32": 1769128846
+    "bytes": 85172,
+    "sha256": "3ab6cae2a92d047dccc431f3c660853045d861fdbf7ea8ab09ee482bc945e239",
+    "crc32": 1253958023
   },
   "audio_packs": [
     {
